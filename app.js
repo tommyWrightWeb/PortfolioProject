@@ -1,6 +1,8 @@
 //Function that is called on page load
 function animate() {
-
+$("#table2").hide();
+   $("#continue1").hide();
+   $("#hideAll").hide();
    setTimeout(() => {
       $("#exitButton").hide();
       let table = document.getElementById("table");
