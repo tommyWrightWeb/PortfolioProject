@@ -1,8 +1,11 @@
-//Function that is called on page load
-function animate() {
+//hides all content on page load
 $("#table2").hide();
    $("#continue1").hide();
    $("#hideAll").hide();
+
+//Function that is called on page load
+function animate() {
+
    setTimeout(() => {
       $("#exitButton").hide();
       let table = document.getElementById("table");
